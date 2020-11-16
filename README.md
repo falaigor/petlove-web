@@ -1,5 +1,6 @@
 <div align="center">
-    <img src="https://github.com/falaigor/petlove-web/blob/master/src/images/logo-black.png?raw=true" />
+    <img src="https://github.com/falaigor/petlove-web/blob/main/src/images/logo-black.png?raw=true" />
+    
 </div>
 
 # [Web] Petlove
@@ -23,10 +24,10 @@ Petlove é uma aplicação que permite conectar pessoas e ONGs de cuidados anima
   
 # Screenshots
 Click to expand.<br>
-<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/landing.jpg" width="49%"/>
-<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/map.jpg" width="49%"/>
-<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/form.jpg" width="49%"/>
-<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/ong.jpg" width="49%"/>
+<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/landing.jpg" width="49%"/>
+<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/map.jpg" width="49%"/>
+<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/form.jpg" width="49%"/>
+<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/ong.jpg" width="49%"/>
 
 # Instalação
 A instalçao é bem simples:
