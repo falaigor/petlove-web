@@ -46,7 +46,7 @@ Configure suas variáveis de ambiente e lembre-se de iniciar a [API] (https://gi
 ### .env
 Neste arquivo você pode configurar a url da API. Renomeie o `.env.example` no diretório raiz para` .env` e então atualize com suas configurações.
 
-![Mapbox](https://www.mapbox.com) foi usado o mapbox renderizador do mapa.
+[Mapbox](https://www.mapbox.com) foi usado o mapbox renderizador do mapa.
 
 key|description|default
 ---|---|---
