@@ -1,28 +1,35 @@
+<div align="center">
+    <img src="https://github.com/falaigor/petlove-web/blob/master/src/images/logo-black.png?raw=true" />
+</div>
+
 # [Web] Petlove
+![](https://img.shields.io/github/languages/count/falaigor/petlove-web?color=%23ffd666) 
+![](https://img.shields.io/github/languages/top/falaigor/petlove-web?color=%23ffd666) 
+![](https://img.shields.io/github/repo-size/falaigor/petlove-web?color=%23ffd666) 
+![](https://img.shields.io/github/last-commit/falaigor/petlove-web?color=%23ffd666)
+<br>
 
-[![react](https://img.shields.io/badge/reactjs-16.13.1-61dafb?style=flat-square&logo=react)](https://reactjs.org/)
-[![styled-components](https://img.shields.io/badge/styled_components-5.2.0-db7b86?style=flat-square&logo=styled-components)](https://styled-components.com/)
-[![eslint](https://img.shields.io/badge/eslint-6.8.0-4b32c3?style=flat-square&logo=eslint)](https://eslint.org/)
-[![airbnb-style](https://flat.badgen.net/badge/style-guide/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
-[![jest](https://img.shields.io/badge/jest-24.9.0-brightgreen?style=flat-square&logo=jest)](https://jestjs.io/)
-[![coverage](https://img.shields.io/codecov/c/gh/DiegoVictor/happy-web?logo=codecov&style=flat-square)](https://codecov.io/gh/DiegoVictor/happy-web)
-[![MIT License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/DiegoVictor/happy-web/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)<br>
+## Projeto
 
-This web version allow users to look for orphanages near from yourself, see details about it and create new ones.
+Petlove é uma aplicação que permite conectar pessoas e ONGs de cuidados animais de uma forma remota e segura.
 
-## Table of Contents
+## Índice
 * [Screenshots](#screenshots)
-* [Installing](#installing)
-  * [Configuring](#configuring)
+* [Instalação](#installing)
+  * [Configuração](#configuring)
       * [.env](#env)
       * [API](#api)
-* [Usage](#usage)
-* [Running the tests](#running-the-tests)
-  * [Coverage Report](#coverage-report)
+* [Uso](#usage)
+  
+# Screenshots
+Click to expand.<br>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/landing.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/map.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/form.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/master/screenshots/ong.jpg" width="49%"/>
 
-# Installing
-Easy peasy lemon squeezy:
+# Instalação
+A instalçao é bem simples:
 ```
 $ yarn
 ```
@@ -30,23 +37,23 @@ Or:
 ```
 $ npm install
 ```
-> Was installed and configured the [`eslint`](https://eslint.org/) and [`prettier`](https://prettier.io/) to keep the code clean and patterned.
+> Foi instalado e configurado o [`eslint`](https://eslint.org/) e [`prettier`](https://prettier.io/) para manter o código limpo e padronizado.
 
-## Configuring
-Configure your environment variables and remember to start the [API](https://github.com/DiegoVictor/happy-api) before to start this app.
+## Configuração
+Configure suas variáveis de ambiente e lembre-se de iniciar a [API] (https://github.com/falaigor/petlove-api) antes de iniciar este aplicativo.
 
 ### .env
-In this file you may configure the API's url. Rename the `.env.example` in the root directory to `.env` then just update with your settings.
+Neste arquivo você pode configurar a url da API. Renomeie o `.env.example` no diretório raiz para` .env` e então atualize com suas configurações.
 
 key|description|default
 ---|---|---
 REACT_APP_API_URL|API's url with version (v1)|`http://localhost:3333/v1`
 
 ### API
-Start the [API](https://github.com/falaigor/happy-api) (see its README for more information). In case of any change in the API's `port` or `host` remember to update the [`.env`](#env) too.
+Inicie a [API] (https://github.com/falaigor/petlove-api) (consulte seu README para obter mais informações). Em caso de qualquer mudança no `port` ou` host` da API, lembre-se de atualizar o [`.env`] (# env) também.
 
-# Usage
-To start the app run:
+# Uso
+Para iniciar o aplicativo, execute:
 ```
 $ yarn start
 ```
