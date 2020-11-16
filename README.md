@@ -24,10 +24,10 @@ Petlove é uma aplicação que permite conectar pessoas e ONGs de cuidados anima
   
 # Screenshots
 Click to expand.<br>
-<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/landing.jpg" width="49%"/>
-<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/map.jpg" width="49%"/>
-<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/form.jpg" width="49%"/>
-<img src="https://github.com/falaigor/petlove-web/blob/main/screenshot/ong.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/main/screenshot/landing.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/main/screenshot/map.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/main/screenshot/form.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/falaigor/petlove-web/main/screenshot/ong.jpg" width="49%"/>
 
 # Instalação
 A instalçao é bem simples:
