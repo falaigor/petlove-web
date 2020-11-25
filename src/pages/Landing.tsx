@@ -10,17 +10,26 @@ function Landing() {
   return (
     <div id="page-landing">
       <div className="content-wrapper">
-        <img src={logoImg} alt="Petlove" />
+        <img src={logoImg} className="logo" alt="Petlove" />
+
+        <div className="location">
+          <strong>Leme</strong>
+          <span>São Paulo</span>
+        </div>
 
         <main>
           <h1>Leve feliciade para os pets</h1>
-          <p>Visite ONGs e ajude a cuidar dos animais</p>
+          <p>Conheça ONGs e Petshops que cuidam de animais</p>
         </main>
 
         <div className="location">
           <strong>Leme</strong>
           <span>São Paulo</span>
         </div>
+
+        <Link to="/login" className="enter-adm">
+          Acesso Restrito
+        </Link>
 
         <Link to="/app" className="enter-app">
           <FiArrowRight size={26} />

@@ -1,0 +1,93 @@
+#page-dashboard {
+  display: flex;
+  background: #f3f3f3;
+}
+
+#page-dashboard main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#page-dashboard .content-wrapper {
+  width: 1200px;
+  padding-top: 40px;
+}
+
+#page-dashboard .content-wrapper h2 {
+  color: var(--color-text-title);
+  font-size: 42px;
+}
+
+#page-dashboard .content-wrapper hr {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 20px 0 50px;
+}
+
+#page-dashboard .content-wrapper .container-maps {
+  display: flex;
+  justify-content: start;
+}
+
+#page-dashboard main .content-wrapper .leaflet-container {
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+}
+
+#page-dashboard main .content-wrapper .map-container {
+  background: #fff;
+  width: 500px;
+  color: #8FA7B3;
+  border: 1px solid #B3DAE2;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#page-dashboard main .content-wrapper .map-container + .map-container{
+  margin-left: 50px;
+}
+
+#page-dashboard main .content-wrapper .map-container footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-dashboard main .content-wrapper .map-container footer p {
+  line-height: 24px;
+  margin-left: 20px;
+  color: #0089A5;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#page-dashboard main .content-wrapper .map-container footer .btn-actions {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-dashboard main .content-wrapper .map-container footer .btn-actions .btn {
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background: var(--color-gray-lighting);
+  color: var(--color-blue-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+#page-dashboard main .content-wrapper .map-container footer .btn-actions .btn:hover {
+  background: var(--color-gray-dark);
+}
+
+
